@@ -26,7 +26,7 @@
 %module glpk_wrapper
 
 %{
-#include "glpk.h"
+#include "/usr/local/Cellar/glpk/4.57/include/glpk.h"
 %}
 
 %include "carrays.i"
@@ -35,7 +35,7 @@
 %array_functions(double, doubleArray)
 
 %ignore glp_vprintf;
-%include "glpk.h"
+%include "/usr/local/Cellar/glpk/4.57/include/glpk.h"
 
 
 
