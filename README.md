@@ -8,7 +8,7 @@ See [github](http://github.com/wtaysom/rglpk) for installation instructions.  Al
 
 # Installation
 
-A working GLPK library installation is required.  Currently, Rglpk is tested with GLPK v4.44 ([direct download](http://ftp.gnu.org/gnu/glpk/glpk-4.44.tar.gz)).  To install GLPK, follow standard procedure:
+A working GLPK library installation is required.  Currently, Rglpk is tested with GLPK v4.44 ([direct download](http://ftp.gnu.org/gnu/glpk/glpk-4.47.tar.gz)).  To install GLPK, follow standard procedure:
 
 	> gzip -d glpk-X.Y.tar.gz
 	> tar -x < glpk-X.Y.tar

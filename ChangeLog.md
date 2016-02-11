@@ -1,3 +1,8 @@
+# rglpk 0.2.2 2016-02-11
+
+* Upgraded glpk to version 4.57
+* Added `get_dual` method to `Rglpk::Row` class
+
 # rglpk 0.2.1 2010-10-13
 
 * Point readers to github in README.
