@@ -2,6 +2,7 @@
 
 * Upgraded glpk to version 4.57
 * Added `get_dual` method to `Rglpk::Row` class
+* Added `[i,j]` style slices to `RowColArray` class
 
 # rglpk 0.2.1 2010-10-13
 

@@ -36,6 +36,10 @@ module Rglpk
       end
     end
 
+    def [](i, j)
+      @array[i, j]
+    end
+
   protected
 
     def push(rc)
