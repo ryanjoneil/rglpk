@@ -23,7 +23,8 @@ module Rglpk
       self
     end
 
-    def [](i)
+    def [](i, j=nil)
+      return @array[i,j] unless j.nil?
       if i.kind_of?(Numeric)
         @array[i]
       elsif i.kind_of?(String)
@@ -34,10 +35,6 @@ module Rglpk
       else
         raise ArgumentError
       end
-    end
-
-    def [](i, j)
-      @array[i, j]
     end
 
   protected
